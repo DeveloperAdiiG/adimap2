@@ -1,0 +1,86 @@
+html {
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 100px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    html {
+        font-size: 13.5px;
+    }
+}
+
+@media only screen and (min-width: 424px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 14.5px;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    html {
+        font-size: 15.5px;
+    }
+}
+
+@media only screen and (min-width: 1240px) {
+    html {
+        font-size: 16px;
+    }
+}
+*{
+    margin: auto;
+    padding: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto auto auto;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    background-color: #53e52686;
+    background-position: center;
+    padding: auto;
+    border-radius: 10px;
+}
+.form h1{
+    margin-top: 100px;
+}
+.form input{
+    color: rgb(0, 0, 0);
+    padding: 10px 10px 10px;
+    margin: 10px 10px 10px;
+    border-radius: 10px;
+}
+.form textarea{
+    color: rgb(0, 0, 0);
+    padding: 10px 10px 10px;
+    margin: 10px 10px 10px;
+    border-radius: 10px;
+}
+.form button{
+    color: rgb(0, 0, 0);
+    padding: 10px 10px 10px;
+    margin: 10px 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
