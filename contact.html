@@ -38,7 +38,7 @@
         <textarea id="message" rows="5" placeholder="How can we help you ?"></textarea>
         <form method="post">
             <input type="button" value="Submit"
-                onclick="sendEmail()" />
+                onclick="sendEmail(); reset(); return false;" />
         </form>
     </form>
 </body>
